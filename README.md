@@ -27,7 +27,7 @@ For gta2cityscapes, [GTA5 dataset](https://download.visinf.tu-darmstadt.de/data/
 ### Training
 Launch training with defaults in configs:
 ```bash
-python train.py --name="vsait"
+python3 train.py --name="vsait"
 ```
 
 This will use the default configs in `./configs/` and save checkpoints and translated images in `./checkpoints/vsait/`.
