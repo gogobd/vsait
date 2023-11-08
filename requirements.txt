@@ -1,4 +1,6 @@
 fvcore
-pytorch-lightning
-torch
-torchvision
+pytorch-lightning == 1.5.0
+torch == 2.0.0
+torchvision == 0.15.1
+tensorboard
+torchmetrics == 0.5

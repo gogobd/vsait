@@ -42,7 +42,7 @@ def parse_args_train():
     parser.add_argument(
         "--val_check_interval",
         type=int,
-        default=5000,
+        default=1000,
         help="Number of training batches between val loops",
     )
     parser.add_argument(
