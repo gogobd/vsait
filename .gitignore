@@ -2,3 +2,4 @@ data/source
 data/target
 /**/*.pyc
 /**/*.zip
+checkpoints
