@@ -4,22 +4,22 @@ DATA:
     LOADER: LocalLoaderTrain
     BATCH_SIZE: 1
     NUM_WORKERS: 8
-    DATA_DIR: ./data/source/train/
+    DATA_DIR: ./data/external/Shared Data/deeplearning/datasets/GTA/unpack/labels/labels/train
   TRAIN_TARGET:
     NAME: LocalDataset
     LOADER: LocalLoaderTrain
     BATCH_SIZE: 1
     NUM_WORKERS: 8
-    DATA_DIR: ./data/target/train/
+    DATA_DIR: ./data/external/Shared Data/deeplearning/datasets/GTA/unpack/images/images/train
   VAL_SOURCE:
     NAME: LocalDataset
     LOADER: LocalLoaderTest
     BATCH_SIZE: 1
     NUM_WORKERS: 1
-    DATA_DIR: ./data/source/val/
+    DATA_DIR: ./data/external/Shared Data/deeplearning/datasets/GTA/unpack/labels/labels/val
   VAL_TARGET:
     NAME: LocalDataset
     LOADER: LocalLoaderTest
     BATCH_SIZE: 1
     NUM_WORKERS: 1
-    DATA_DIR: ./data/target/val/
+    DATA_DIR: ./data/external/Shared Data/deeplearning/datasets/GTA/unpack/images/images/val
