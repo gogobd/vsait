@@ -1,5 +1,4 @@
-data/source
-data/target
+data
 /**/*.pyc
 /**/*.zip
 checkpoints
