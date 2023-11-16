@@ -44,7 +44,6 @@ WORKDIR /app
 ENV SHELL /bin/bash
 CMD /usr/local/bin/code-server --cert --bind-addr 0.0.0.0:8080 /app
 
-# docker build -t codeserver-vsait -f Dockerfile_vscs .
-# docker run --name codeserver-vsait --ipc host --gpus all -v ~/.ssh:/root/.ssh -v $(pwd):/app -p 8080-8089:8080-8089 -it -d codeserver-vsait
-# docker exec -it codeserver-vsait cat /root/.config/code-server/config.yaml
-
+# sudo docker build -t codeserver-vsait -f Dockerfile_vscs .
+# sudo docker run --name codeserver-vsait --ipc host --gpus all -v ~/.ssh:/root/.ssh -v $(pwd):/app -p 8080-8089:8080-8089 -it -d codeserver-vsait
+# sudo docker exec -it codeserver-vsait cat /root/.config/code-server/config.yaml
