@@ -47,3 +47,5 @@ CMD /usr/local/bin/code-server --cert --bind-addr 0.0.0.0:8080 /app
 # sudo docker build -t codeserver-vsait -f Dockerfile_vscs .
 # sudo docker run --name codeserver-vsait --ipc host --gpus all -v ~/.ssh:/root/.ssh -v $(pwd):/app -p 8080-8089:8080-8089 -it -d codeserver-vsait
 # sudo docker exec -it codeserver-vsait cat /root/.config/code-server/config.yaml
+
+# python3 train.py --name="vsait" --resume_from_checkpoint="/app/checkpoints/vsait/version_0/checkpoints/epoch=7-step=198411.ckpt" --max_steps=2000000
